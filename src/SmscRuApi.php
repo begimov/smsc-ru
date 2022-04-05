@@ -17,10 +17,10 @@ class SmscRuApi
     protected $endpoint;
 
     /** @var string */
-    protected $login;
+    public $login;
 
     /** @var string */
-    protected $secret;
+    public $secret;
 
     /** @var string */
     protected $sender;
